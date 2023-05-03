@@ -19,4 +19,8 @@ Utilizaremos [Tableau](https://www.tableau.com/es-es) para el análisis de datos
 
 En una siguiente etapa (TP N°3), vamos a permitir al usuario interactuar con la información del dataset a través de una instancia de [Grafana](https://grafana.com/) corriendo en un servidor web.
 
-Dataset elegido: Datos COVID Link: https://data.buenosaires.gob.ar/dataset/casos-covid-19
+---
+
+Dataset elegido: Datos COVID.
+
+Link de datos abiertos: https://data.buenosaires.gob.ar/dataset/casos-covid-19
