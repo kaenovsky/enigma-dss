@@ -27,7 +27,14 @@ main {
 }
 
 main img {
+    max-width: 50rem;
+}
+
+main .img-box {
     max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .epigrafe {
@@ -37,7 +44,7 @@ main img {
 footer {
     background-color: #1b1422;
     color: #fbfdfd;
-    padding: 1rem .5rem;
+    padding: 1rem 0 2rem 0;
 }
 
 .footer-data p {
