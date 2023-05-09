@@ -30,6 +30,10 @@ main img {
     max-width: 100%;
 }
 
+.epigrafe {
+    font-size: .7rem;
+}
+
 footer {
     background-color: #1b1422;
     color: #fbfdfd;
