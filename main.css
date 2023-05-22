@@ -4,9 +4,35 @@ body {
     background: #d299f7;
     color: #131313;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+main {
     max-width: 40rem;
     margin: 0 auto;
     padding: 0 .5rem;
+}
+
+.github {
+    position: top;
+    background: #131313;
+    color: #fff;
+    margin: 0;
+    padding: .5rem;
+    text-align: center;
+}
+
+.github p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.github a, .github a:visited {
+    color: #fff;
+}
+
+.github a:hover {
+    color: #d299f7;
 }
 
 h1 {
@@ -28,7 +54,7 @@ p {
     margin-top: 1rem;
 }
 
-a, a:visited {
+.links a, .links a:visited {
     text-decoration: none;
     color: #fff;
     background: #131313;
@@ -37,6 +63,6 @@ a, a:visited {
     margin: .4rem;
 }
 
-a:hover {
+.links a:hover {
     background: #262626;
 }
