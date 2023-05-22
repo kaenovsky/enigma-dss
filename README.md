@@ -25,6 +25,8 @@ Utilizaremos [Tableau](https://www.tableau.com/es-es) para el análisis de datos
 - Landing page covid: http://covid.altadata.ar
 - Instancia grafana: http://graf.altadata.ar (con docker 🐳)
 
+![Instancia de Grafana corriendo en VPS](./demo-grafana.png)
+
 ---
 
 Dataset elegido: Datos COVID.
