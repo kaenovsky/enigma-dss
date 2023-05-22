@@ -15,9 +15,15 @@ Apuntamos a realizar una comparativa de la cantidad de casos de COVID-19 en el a
 
 ## Metodología
 
-Utilizaremos [Tableau](https://www.tableau.com/es-es) para el análisis de datos y gráficos. Todo esto se verá plasmado [en una landing page (work in progress)](https://kaenovsky.github.io/enigma-dss/src/).
+Utilizaremos [Tableau](https://www.tableau.com/es-es) para el análisis de datos y gráficos. ~~Todo esto se verá plasmado [en una landing page (work in progress)](https://kaenovsky.github.io/enigma-dss/src/).~~
 
-En una siguiente etapa (TP N°3), vamos a permitir al usuario interactuar con la información del dataset a través de una instancia de [Grafana](https://grafana.com/) corriendo en un servidor web.
+~~En una siguiente etapa (TP N°3), vamos a permitir al usuario interactuar con la información del dataset a través de una instancia de [Grafana](https://grafana.com/) corriendo en un servidor web.~~
+
+🚀 Update: Quedó corriendo una primera versión demo en una VPS (Digital Ocean). Utilizando ngnix y configurando los DNS desde el manager de DO para tener distintos subdominios, dejamos seteada la siguiente configuración:
+
+- Landing page general: http://altadata.ar
+- Landing page covid: http://covid.altadata.ar
+- Instancia grafana: http://graf.altadata.ar (con docker 🐳)
 
 ---
 
