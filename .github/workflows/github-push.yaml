@@ -19,4 +19,4 @@ jobs:
         run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy altadata main landing with rsync
-        run: rsync -avz -e 'ssh -p ${{ secrets.SSH_PORT }}' './index.html main.css' ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/altadata.ar/html/
+        run: rsync -avz -e 'ssh -p ${{ secrets.SSH_PORT }}' 'index.html main.css' ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/altadata.ar/html/
