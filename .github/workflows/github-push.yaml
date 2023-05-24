@@ -22,4 +22,4 @@ jobs:
         run: rsync -avz -e 'ssh -p ${{ secrets.SSH_PORT }}' ./*.{html,css} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/altadata.ar/html/
 
       - name: Deploy covid altadata landing with rsync
-        run: rsync -avz -e 'ssh -p ${{ secrets.SSH_PORT }}' ./src/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/covid.altadata.ar/html/
+        run: rsync -rlptgoDvz -e 'ssh -p ${{ secrets.SSH_PORT }}' ./src/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/covid.altadata.ar/html/
