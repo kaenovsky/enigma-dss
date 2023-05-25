@@ -46,7 +46,7 @@ Finalmente este reporte quedó subido tanto [en Github pages](https://kaenovsky.
 
 ~~En una siguiente etapa (TP N°3), vamos a permitir al usuario interactuar con la información del dataset a través de una instancia de [Grafana](https://grafana.com/) corriendo en un servidor web.~~
 
-🚀 Update: Quedó corriendo una primera versión demo en una VPS (Digital Ocean). La instancia es pequeña, apenas 2gb de ram. Instalamos Ubuntu server y configuramos el hardening de la misma para conectarnos por SSH. Más adelante, utilizando [nginx](https://nginx.org/en/) para el web server y redireccionamiento del tráfico, junto a la configurando los DNS desde el manager de Digital Ocean, logramos tener disponibles distintos subdominios para cada parte del proyecto. Así fue que dejamos seteada la siguiente configuración:
+🚀 Update: Quedó corriendo una primera versión demo en una VPS (Digital Ocean). La instancia es pequeña, apenas 2gb de ram. Instalamos Ubuntu server y configuramos el hardening de la misma para conectarnos por SSH. Más adelante, utilizando [nginx](https://nginx.org/en/) para el web server y redireccionamiento del tráfico. Junto a la configuración de los DNS desde el manager de Digital Ocean, logramos tener disponibles distintos subdominios para cada parte del proyecto. Así fue que dejamos seteada la siguiente estructura:
 
 - Landing page general: https://altadata.ar
 - Landing page covid: https://covid.altadata.ar
