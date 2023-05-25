@@ -21,13 +21,37 @@ Utilizaremos [Tableau](https://www.tableau.com/es-es) para el análisis de datos
 
 🚀 Update: Quedó corriendo una primera versión demo en una VPS (Digital Ocean). Utilizando ngnix y configurando los DNS desde el manager de DO para tener distintos subdominios, dejamos seteada la siguiente configuración:
 
-- Landing page general: http://altadata.ar
-- Landing page covid: http://covid.altadata.ar
-- Instancia grafana: http://graf.altadata.ar (con docker 🐳)
+- Landing page general: https://altadata.ar
+- Landing page covid: https://covid.altadata.ar
+- Instancia grafana: https://graf.altadata.ar (con docker 🐳)
 
 ![Instancia de Grafana corriendo en VPS](./demo-grafana.png)
 
 ---
+
+últimos checkpoints vistos en clase:
+
+[✅] Permitir visualización sin login
+
+[✅] Agregar TSL/SSL para https
+
+[✅] Permitir Sing Up / Sign in
+
+[❌] Mejorar dashboard de datos
+
+[❌] Mejorar propuesta 
+
+(idea nueva 💡 permitir al usuario hacer su panel)
+
+Para eso necesitamos un mini tutorial, datos de prueba y dar permisos de edición a los dasboards.
+
+[✅] Permitir Sing Up / Sign in
+
+---
+
+### Primera parte (del TP1)
+
+Esto está relacionado a la landing que quedó subida en https://covid.altadata.ar
 
 Dataset elegido: Datos COVID.
 
