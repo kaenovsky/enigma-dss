@@ -19,10 +19,11 @@ nav {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 
 nav li {
-    background-color: #1b1422;
+    background-color: #131313;;
     color: #fbfdfd;
     margin: .5rem;
     padding: .5rem;
@@ -36,6 +37,10 @@ nav li:hover {
 nav li a, nav li a:visited {
     text-decoration: none;
     color: unset;
+}
+
+h1 {
+    font-size: 1.5rem;
 }
 
 main {
@@ -65,7 +70,7 @@ main .img-box {
 }
 
 footer {
-    background-color: #1b1422;
+    background-color: #131313;;
     color: #fbfdfd;
     padding: 1rem 0 2rem 0;
 }
@@ -77,6 +82,7 @@ footer {
 
 .footer-data p {
     margin-bottom: 0;
+    padding: 0 .7rem;
 }
 
 .footer-data a {
@@ -89,4 +95,28 @@ footer {
 
 .footer-data a:visited {
     color: #e5cceb;
+}
+
+/* This needs to be refactor to not be repeated */
+
+.github {
+    position: top;
+    background: #131313;
+    color: #fff;
+    margin: 0;
+    padding: .5rem;
+    text-align: center;
+}
+
+.github p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.github a, .github a:visited {
+    color: #fff;
+}
+
+.github a:hover {
+    color: #d299f7;
 }
