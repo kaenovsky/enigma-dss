@@ -66,3 +66,29 @@ p {
 .links a:hover {
     background: #262626;
 }
+
+.separator {
+    text-align: center;
+}
+
+/* tutorial */
+
+iframe {
+    max-width: 100%;
+}
+
+.steps {
+    margin-top: 3rem;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+.p-tutorial {
+    font-size: 1.2rem;
+}
+
+.img-tutorial {
+    max-width: 100%;
+}
