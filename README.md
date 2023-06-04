@@ -84,12 +84,12 @@ Para lograr esto necesitamos un mini tutorial que guíe al usuario con info y da
 
 [✅] Permitir edición por usuario
 
-[x] Linkear video intro a Grafana
+[✅] Linkear video intro a Grafana
 
-[x] Redactar mini tutorial
+[✅] Redactar mini tutorial
 
-[x] Actualizar landing con info para el usuario
+[✅] Actualizar landing con info para el usuario
 
-[x] Tomar y elegir screenshots
+[✅] Tomar y elegir screenshots
 
-[x] Maquetar y pushear el código 
+[✅] Maquetar y pushear el código
