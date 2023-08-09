@@ -28,15 +28,22 @@ nav li {
     margin: .5rem;
     padding: .5rem;
     border-radius: 4px;
+    width: 4rem;
+    text-align: center;
+    cursor: pointer;
 }
 
-nav li:hover {
+nav li:hover, nav li:first-of-type:hover {
     background-color: #3e2e4e;
 }
 
 nav li a, nav li a:visited {
     text-decoration: none;
     color: unset;
+}
+
+nav li:first-of-type {
+    background-color: #d299f7;
 }
 
 h1 {
